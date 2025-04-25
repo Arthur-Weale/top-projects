@@ -126,7 +126,7 @@ button{
     align-content: flex-end;
 }
 
-p{
+.top p{
     width: 34em;
     font-weight: bold;
     font-size: large;
@@ -136,4 +136,17 @@ p{
 .bottom a{
     text-decoration: none;
     color: #596D48;
+}
+
+.credits{
+    position: absolute;
+    bottom: 10px;
+    color: #F0F0F0;
+    left: 65px;
+    font-size: small;
+    font-weight: 400;
+}
+
+.credits a{
+    color: #F0F0F0;
 }
